@@ -775,11 +775,11 @@ https://templatemo.com/tm-593-personal-shape
         }
 
         .portfolio-item:nth-child(1) .portfolio-image {
-            background-image: url('../images/working-business-women.jpg');
+            background-image: url('https://raw.githubusercontent.com/gbetorre/rischi/refs/heads/main/web/img/screenshot/landing2.0.png');
         }
 
         .portfolio-item:nth-child(2) .portfolio-image {
-            background-image: url('../images/computer-desk-stickers.jpg');
+            background-image: url('https://raw.githubusercontent.com/gbetorre/convenzioni/refs/heads/main/col/src/main/webapp/assets/images/screenshot/landing0.13.png');
         }
 
         .portfolio-item:nth-child(3) .portfolio-image {
