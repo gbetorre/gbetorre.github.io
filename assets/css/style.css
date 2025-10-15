@@ -1,0 +1,31 @@
+/*
+
+Extends TemplateMo 593 personal shape
+
+with further classes 
+
+*/
+
+:root {
+  --success-color: #28a745; /* typical bootstrap green */
+}
+
+/* Make link inside tech-tag inherit colors and fill entire span */
+.tech-tag a {
+  /*color: inherit;*/
+  text-decoration: none; /* remove underline or add it as needed */
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  padding: 0.4rem 1rem; /* match parent padding for clickable area */
+  border-radius: 20px; /* rounded corners same as parent */
+  transition: inherit;
+  cursor: pointer;
+}
+
+/* On hover of the link, colorize the entire tech-tag */
+.tech-tag a:hover,
+.tech-tag a:focus {
+  background: var(--primary-color);
+  color: var(--text-light);
+}
