@@ -23,7 +23,6 @@ with further classes
   cursor: pointer;
 }
 
-.tech-tag a:link,
 .tech-tag a:visited {
   color: inherit; /* or your preferred color */
   text-decoration: none; /* if you want no underline */
