@@ -24,7 +24,7 @@ with further classes
 }
 
 .tech-tag a:visited {
-  color: inherit; /* or your preferred color */
+  color: deepskyblue; /* or your preferred color */
   text-decoration: none; /* if you want no underline */
 }
 
