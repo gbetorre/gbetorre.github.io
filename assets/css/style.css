@@ -23,6 +23,12 @@ with further classes
   cursor: pointer;
 }
 
+.tech-tag a:link,
+.tech-tag a:visited {
+  color: inherit; /* or your preferred color */
+  text-decoration: none; /* if you want no underline */
+}
+
 /* On hover of the link, colorize the entire tech-tag */
 .tech-tag a:hover,
 .tech-tag a:focus {
